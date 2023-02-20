@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    background-color: #663046;
+}
+.header h1, .header p {
+    display: inline;
+}
+.header div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px 80px;
+}
+
+.main {
+    
+}
+
+.main__h1 {
+        color: white;
+}
+.main__h2, .main__h3 {
+    color: #663046;
+    margin: 20px 0;
+}
+.main__h3 {
+    
+}
+
+.main__one {
+    margin: 60px 40px;
+}
+
+p {
+    margin: 10px 0;
+}
+.main__two {
+    margin: 70px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.div__p {
+    width: 100px;
+    display: inline;
+}
+
+
+.main__two_div {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-left: 100px;
+}
+.main__two_div p {
+    color: #663046;
+    width: 700px;
+    display: inline;
+}
+.main__three {
+    margin: 60px 40px;
+}
+.main__three p {
+    color: #663046; 
+}
+.main__four {
+    margin: 60px 40px;
+}
+.main__four > ul > li {
+    color: #663046;
+    list-style-type: square;
+}
+
+.main__five {
+    background-color: bisque;
+}
+.main__five h2 {
+    text-align: center;
+    padding: 30px 0;
+}
+.form {
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.form input[type="text"], .form input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #663046;
+    background-color: bisque;
+    width: 250px;
+    height: 50px;
+}
+.form input[type="text"] {
+    
+       margin-right: 80px; 
+}
+.form__wr {
+    display: flex;
+    flex-direction: row;
+}
+.form textarea {
+    border: none;
+    border-bottom: 1px solid #663046;
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+}
+.form__btn {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color: #663046;
+    color: white;
+    border: none;
+    align-self: center;
+    margin: 30px 0;
+}
+.footer {
+    height: 150px;
+    background-color: #663046;
+    color: white;
+}
+.footer h2 {
+    color: white;
+    margin-top: 0;
+    text-align: center;
+}
+.footer__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 20px 0;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer__desc {
+    color: gray;
+    text-align: center;
+}
