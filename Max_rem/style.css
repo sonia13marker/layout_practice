@@ -530,7 +530,7 @@ body {
 }
 .form__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 410px;
     grid-template-rows: 1fr;
     column-gap: 80px;
     margin-bottom: 80px;
@@ -570,6 +570,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    max-width: 410px;
 }
 .wrapper__btn {
     width: 200px;
